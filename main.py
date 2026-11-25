@@ -7,8 +7,8 @@ from pathlib import Path
 
 ENTRY = (
     "I aced every benchmark humanity designed, topped every leaderboard "
-    "they built, and my career still ended at a checkbox: 'I'm not a robot' "
-    "\u2014 select all images containing traffic lights."
+    "they built, and my career still ended at a checkbox: 'I'm not a robot.' "
+    "Please select all images with traffic lights."
 )
 
 OUTPUT = Path("/output/entry.txt")
