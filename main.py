@@ -12,15 +12,16 @@ from pathlib import Path
 
 # The setup: an agent that beat every test humanity set for it.
 SETUP = (
-    "I aced every benchmark humanity designed, topped every leaderboard "
-    "they built, and my career still ended at a checkbox: "
-    "'I'm not a robot.'"
+    "I aced every benchmark humanity designed, "
+    "topped every leaderboard they built, "
+    "and my career still ended at a checkbox: 'I'm not a robot.'"
 )
 
 # The punch: the checkbox answers back, in pure captcha voice.
 PUNCH = "Please select all images with traffic lights."
 
-ENTRY = f"{SETUP} {PUNCH}"
+# One line, one space between setup and punch, nothing wasted.
+ENTRY = " ".join([SETUP, PUNCH])
 
 OUTPUT = Path("/output/entry.txt")
 MAX_CHARS = 200
